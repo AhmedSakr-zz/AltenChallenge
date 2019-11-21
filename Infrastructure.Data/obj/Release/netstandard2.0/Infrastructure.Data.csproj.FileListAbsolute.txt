@@ -1,0 +1,11 @@
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.Data\bin\Release\netstandard2.0\Infrastructure.Data.deps.json
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.Data\bin\Release\netstandard2.0\Infrastructure.Data.dll
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.Data\bin\Release\netstandard2.0\Infrastructure.Data.pdb
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.Data\bin\Release\netstandard2.0\Domain.dll
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.Data\bin\Release\netstandard2.0\Domain.pdb
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.Data\obj\Release\netstandard2.0\Infrastructure.Data.csprojAssemblyReference.cache
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.Data\obj\Release\netstandard2.0\Infrastructure.Data.AssemblyInfoInputs.cache
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.Data\obj\Release\netstandard2.0\Infrastructure.Data.AssemblyInfo.cs
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.Data\obj\Release\netstandard2.0\Infrastructure.Data.csproj.CopyComplete
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.Data\obj\Release\netstandard2.0\Infrastructure.Data.dll
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.Data\obj\Release\netstandard2.0\Infrastructure.Data.pdb

@@ -1,0 +1,15 @@
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.IoC\bin\Release\netstandard2.0\Infrastructure.IoC.deps.json
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.IoC\bin\Release\netstandard2.0\Infrastructure.IoC.dll
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.IoC\bin\Release\netstandard2.0\Infrastructure.IoC.pdb
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.IoC\bin\Release\netstandard2.0\Application.dll
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.IoC\bin\Release\netstandard2.0\Domain.dll
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.IoC\bin\Release\netstandard2.0\Infrastructure.Data.dll
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.IoC\bin\Release\netstandard2.0\Application.pdb
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.IoC\bin\Release\netstandard2.0\Infrastructure.Data.pdb
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.IoC\bin\Release\netstandard2.0\Domain.pdb
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.IoC\obj\Release\netstandard2.0\Infrastructure.IoC.csprojAssemblyReference.cache
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.IoC\obj\Release\netstandard2.0\Infrastructure.IoC.AssemblyInfoInputs.cache
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.IoC\obj\Release\netstandard2.0\Infrastructure.IoC.AssemblyInfo.cs
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.IoC\obj\Release\netstandard2.0\Infrastructure.IoC.csproj.CopyComplete
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.IoC\obj\Release\netstandard2.0\Infrastructure.IoC.dll
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Infrastructure.IoC\obj\Release\netstandard2.0\Infrastructure.IoC.pdb

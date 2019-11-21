@@ -1,0 +1,8 @@
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\vehicles\Shared\bin\Debug\netstandard2.0\Shared.deps.json
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\vehicles\Shared\bin\Debug\netstandard2.0\Shared.dll
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\vehicles\Shared\obj\Debug\netstandard2.0\Shared.csprojAssemblyReference.cache
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\vehicles\Shared\obj\Debug\netstandard2.0\Shared.AssemblyInfoInputs.cache
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\vehicles\Shared\obj\Debug\netstandard2.0\Shared.AssemblyInfo.cs
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\vehicles\Shared\bin\Debug\netstandard2.0\Shared.pdb
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\vehicles\Shared\obj\Debug\netstandard2.0\Shared.dll
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\vehicles\Shared\obj\Debug\netstandard2.0\Shared.pdb

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAAQjaQtx570eeoKRNAzENLAAAAAACAAAAAAADZgAAwAAAABAAAAAyHvlTEw4MeyD0PDowdPGFAAAAAASAAACgAAAAEAAAAPN/GWd9RwN83/Xy6QkALqgYAAAA1txk7XXFD+2FjrnmpUjvLvSclnjE6YUEFAAAACPmXIP+lQTJiXgWEFCaVo7vq+JP</EncryptedPassword>
+    <_PublishTargetUrl>ftp://FTP-EU.SITE4NOW.NET/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Application.dll">
+      <publishTime>11/18/2019 22:03:34</publishTime>
+    </File>
+    <File Include="Application.pdb">
+      <publishTime>11/18/2019 22:03:34</publishTime>
+    </File>
+    <File Include="appsettings.Development.json">
+      <publishTime>11/17/2019 19:18:13</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>11/19/2019 21:58:23</publishTime>
+    </File>
+    <File Include="AutoMapper.dll">
+      <publishTime>08/12/2019 12:42:04</publishTime>
+    </File>
+    <File Include="AutoMapper.Extensions.Microsoft.DependencyInjection.dll">
+      <publishTime>08/12/2019 13:19:42</publishTime>
+    </File>
+    <File Include="aws-beanstalk-tools-defaults.json">
+      <publishTime>11/19/2019 20:56:51</publishTime>
+    </File>
+    <File Include="Domain.dll">
+      <publishTime>11/17/2019 20:07:16</publishTime>
+    </File>
+    <File Include="Domain.pdb">
+      <publishTime>11/17/2019 20:07:16</publishTime>
+    </File>
+    <File Include="dotnet-aspnet-codegenerator-design.dll">
+      <publishTime>09/24/2019 19:58:14</publishTime>
+    </File>
+    <File Include="es/Hangfire.Core.resources.dll">
+      <publishTime>10/22/2019 15:45:34</publishTime>
+    </File>
+    <File Include="Hangfire.AspNetCore.dll">
+      <publishTime>10/22/2019 15:45:38</publishTime>
+    </File>
+    <File Include="Hangfire.Core.dll">
+      <publishTime>10/22/2019 15:45:34</publishTime>
+    </File>
+    <File Include="Hangfire.SqlServer.dll">
+      <publishTime>10/22/2019 15:45:36</publishTime>
+    </File>
+    <File Include="Infrastructure.Data.dll">
+      <publishTime>11/18/2019 22:03:33</publishTime>
+    </File>
+    <File Include="Infrastructure.Data.pdb">
+      <publishTime>11/18/2019 22:03:33</publishTime>
+    </File>
+    <File Include="Infrastructure.IoC.dll">
+      <publishTime>11/18/2019 22:03:35</publishTime>
+    </File>
+    <File Include="Infrastructure.IoC.pdb">
+      <publishTime>11/18/2019 22:03:35</publishTime>
+    </File>
+    <File Include="libman.json">
+      <publishTime>11/14/2019 09:58:46</publishTime>
+    </File>
+    <File Include="MediatR.dll">
+      <publishTime>04/30/2019 17:58:24</publishTime>
+    </File>
+    <File Include="MediatR.Extensions.Microsoft.DependencyInjection.dll">
+      <publishTime>04/30/2019 20:24:38</publishTime>
+    </File>
+    <File Include="Microservice.deps.json">
+      <publishTime>11/19/2019 22:15:50</publishTime>
+    </File>
+    <File Include="Microservice.dll">
+      <publishTime>11/19/2019 22:15:49</publishTime>
+    </File>
+    <File Include="Microservice.pdb">
+      <publishTime>11/19/2019 22:15:49</publishTime>
+    </File>
+    <File Include="Microservice.runtimeconfig.json">
+      <publishTime>11/18/2019 06:19:51</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Http.Connections.Client.dll">
+      <publishTime>11/12/2018 17:45:44</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.SignalR.Client.Core.dll">
+      <publishTime>11/12/2018 17:45:44</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.SignalR.Client.dll">
+      <publishTime>11/12/2018 17:45:44</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
+      <publishTime>09/23/2019 20:00:26</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Workspaces.dll">
+      <publishTime>09/23/2019 20:00:28</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll">
+      <publishTime>09/24/2019 19:57:40</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Core.dll">
+      <publishTime>09/24/2019 19:57:46</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.dll">
+      <publishTime>09/24/2019 19:57:50</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll">
+      <publishTime>09/24/2019 19:57:48</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll">
+      <publishTime>09/24/2019 19:57:42</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll">
+      <publishTime>09/24/2019 19:57:42</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll">
+      <publishTime>09/24/2019 19:57:52</publishTime>
+    </File>
+    <File Include="nl/Hangfire.Core.resources.dll">
+      <publishTime>10/22/2019 15:45:34</publishTime>
+    </File>
+    <File Include="NuGet.Frameworks.dll">
+      <publishTime>09/23/2019 20:00:20</publishTime>
+    </File>
+    <File Include="pt-BR/Hangfire.Core.resources.dll">
+      <publishTime>10/22/2019 15:45:34</publishTime>
+    </File>
+    <File Include="SignalRHub.dll">
+      <publishTime>11/17/2019 18:39:10</publishTime>
+    </File>
+    <File Include="SignalRHub.pdb">
+      <publishTime>11/17/2019 18:39:10</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.dll">
+      <publishTime>11/07/2018 10:25:10</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>11/07/2018 10:25:06</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>11/07/2018 10:25:08</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>11/07/2018 10:25:06</publishTime>
+    </File>
+    <File Include="System.Composition.AttributedModel.dll">
+      <publishTime>09/23/2019 20:00:23</publishTime>
+    </File>
+    <File Include="System.Composition.Convention.dll">
+      <publishTime>09/23/2019 20:00:23</publishTime>
+    </File>
+    <File Include="System.Composition.Hosting.dll">
+      <publishTime>09/23/2019 20:00:25</publishTime>
+    </File>
+    <File Include="System.Composition.Runtime.dll">
+      <publishTime>09/23/2019 20:00:25</publishTime>
+    </File>
+    <File Include="System.Composition.TypedParts.dll">
+      <publishTime>09/23/2019 20:00:25</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>11/19/2019 22:15:50</publishTime>
+    </File>
+    <File Include="wwwroot/js/signalr/dist/browser/signalr.js">
+      <publishTime>11/14/2019 09:58:54</publishTime>
+    </File>
+    <File Include="wwwroot/js/signalr/dist/browser/signalr.min.js">
+      <publishTime>11/14/2019 09:58:54</publishTime>
+    </File>
+    <File Include="zh-TW/Hangfire.Core.resources.dll">
+      <publishTime>10/22/2019 15:45:34</publishTime>
+    </File>
+    <File Include="zh/Hangfire.Core.resources.dll">
+      <publishTime>10/22/2019 15:45:34</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

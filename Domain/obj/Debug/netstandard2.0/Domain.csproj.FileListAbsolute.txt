@@ -1,0 +1,16 @@
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\vehicles\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\vehicles\Domain\bin\Debug\netstandard2.0\Domain.dll
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\vehicles\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\vehicles\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\vehicles\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\vehicles\Domain\bin\Debug\netstandard2.0\Domain.pdb
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\vehicles\Domain\obj\Debug\netstandard2.0\Domain.dll
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\vehicles\Domain\obj\Debug\netstandard2.0\Domain.pdb
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Domain\bin\Debug\netstandard2.0\Domain.dll
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Domain\bin\Debug\netstandard2.0\Domain.pdb
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Domain\obj\Debug\netstandard2.0\Domain.dll
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Domain\obj\Debug\netstandard2.0\Domain.pdb

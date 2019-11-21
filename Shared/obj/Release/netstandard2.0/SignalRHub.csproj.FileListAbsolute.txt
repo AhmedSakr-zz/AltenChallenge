@@ -1,0 +1,8 @@
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Shared\bin\Release\netstandard2.0\SignalRHub.deps.json
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Shared\bin\Release\netstandard2.0\SignalRHub.dll
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Shared\bin\Release\netstandard2.0\SignalRHub.pdb
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Shared\obj\Release\netstandard2.0\SignalRHub.csprojAssemblyReference.cache
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Shared\obj\Release\netstandard2.0\SignalRHub.AssemblyInfoInputs.cache
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Shared\obj\Release\netstandard2.0\SignalRHub.AssemblyInfo.cs
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Shared\obj\Release\netstandard2.0\SignalRHub.dll
+E:\Applications\OtherApplications\AhmedSakr.VisualStudio.net\AltenChanlenge\V2\vehicles\Shared\obj\Release\netstandard2.0\SignalRHub.pdb

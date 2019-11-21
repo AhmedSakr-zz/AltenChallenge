@@ -1,0 +1,240 @@
+﻿@{
+  ViewData["Title"] = "Home Page";
+}
+
+@model ui.ViewModels.IndexViewModel
+@using ui.ViewModels
+
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Filter
+</button>
+
+<span id="span_FilterMessage" class=" alert-primary"></span>
+<br />
+<br />
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+
+    @*
+        //Server side filtration for huge amount of data
+
+        <form asp-controller="Home" asp-action="Index">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <label for="CustomerId">Customer</label>
+              <select class="form-control" asp-for="CustomerId">  
+                <option value="0">Select customer</option>
+                @foreach (var customer in Model.Customers)
+                {
+                  <option value="@customer.Id">@customer.FullName</option>
+                }
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="StatusId">Status</label>
+              <select class="form-control" asp-for="StatusId">
+                <option value="0">Select status</option>
+                <option value="1">Connected</option>
+                <option value="2">Disconnected</option>
+              </select>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Filter</button>
+          </div>
+        </div>
+      </form>*@
+
+
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Filter</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="CustomerId">Customer</label>
+          <select class="form-control" asp-for="CustomerId">
+            <option value="0">Select customer</option>
+            @foreach (var customer in Model.Customers)
+            {
+              <option value="@customer.Id">@customer.FullName</option>
+            }
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="StatusId">Status</label>
+          <select class="form-control" asp-for="StatusId">
+            <option value="0">Select status</option>
+            <option value="1">Connected</option>
+            <option value="2">Disconnected</option>
+          </select>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="btn_Filter" data-dismiss="modal">Filter</button>
+        <input type="hidden" id="hiden_CustomerId" />
+        <input type="hidden" id="hiden_StatusId" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<table id="tbl_Cars" class="table table-striped">
+  <thead>
+    <tr>
+      <th>
+        Customer Name
+      </th>
+      <th>
+        Customer Address
+      </th>
+      <th>
+        Vehicle Id
+      </th>
+      <th>
+        Reregistration No
+      </th>
+      <th>
+        Status
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    @{
+      foreach (CarForReturnDto car in Model.Cars)
+      {
+        var cssClass = car.Status == "Connected" ? "alert-success" : "alert-danger";
+        <tr id="tr@(car.CarId)">
+          <td>@car.CustomerName</td>
+          <td>@car.CustomerAddress</td>
+          <td>@car.VehicleId</td>
+          <td>@car.RegNo</td>
+          <td>
+            <span class="@cssClass"> @car.Status</span>
+            <input type="hidden" value="@car.CarId" />
+            <input type="hidden" value="@car.CustomerId" />
+            <input type="hidden" value="@car.StatusId" />
+          </td>
+
+        </tr>
+      }
+    }
+  <tbody>
+
+</table>
+
+@section Scripts{
+  <script src="~/js/signalr/dist/browser/signalr.js"></script>
+  <script type="text/javascript">
+    $(function () {
+
+      $("#btn_Filter").click(function () {
+
+        //filter options
+        var $filterCustomerId = $("#CustomerId").val();
+        var $filrerStatusId = $("#StatusId").val();
+
+        // update filter message
+        $("#span_FilterMessage").html("");
+        var $filterMessage = "";
+        if ($filrerStatusId != 0) {
+          $filterMessage = "Filtered by status = " +$("#StatusId option:selected").text();
+        }
+        if ($filterCustomerId != 0) {
+          if ($filrerStatusId != 0) {
+            $filterMessage += " and customer = " + $("#CustomerId option:selected").text();
+          } else {
+            $filterMessage ="Filtered by customer = " + $("#CustomerId option:selected").text();
+          }
+
+        }
+        $("#span_FilterMessage").html($filterMessage);
+
+        //fetching car tables to show only cars match filter options
+        $('#tbl_Cars > tbody tr').each(function () {
+
+          // car status Id
+          var $carStatusId = $(this).find('input').eq(2).val();
+
+          //car customer Id
+          var $carCustomerId = $(this).find('input').eq(1).val();
+
+          //show or hide car row based on filter options
+          if (($carStatusId == $filrerStatusId || $filrerStatusId == 0) && ($carCustomerId == $filterCustomerId || $filterCustomerId == 0)) {
+            $(this).show();
+          } else {
+            $(this).hide();
+          }
+
+        });
+
+      });
+      //Connect to server hub: eventHub, transport type default would be: websocket
+      var connection = new signalR.HubConnectionBuilder()
+        .withUrl("/eventHub")
+        .build();
+
+      //Hook callback for listening message from server side
+      connection.on("SendNoticeEventToClient",
+        function (message) {
+
+          //filter options
+          var $filterCustomerId = $("#CustomerId").val();
+          var $filrerStatusId = $("#StatusId").val();
+
+          //car status object
+          var $carStatusObj = jQuery.parseJSON(message);
+
+          //car tr Id
+          var $carRow = "#tr" + $carStatusObj.CarId;
+
+          //car status test
+          var $status = $carStatusObj.StatusId === 1 ? "Connected" : "Disconnected";
+
+          //car status cssClass
+          var $cssClass = $carStatusObj.StatusId === 1 ? "alert-success" : "alert-danger";
+
+          //car customer Id
+          var $carCustomerId = $($carRow).find('input').eq(1).val();
+
+          //change car status text and cssClass on cars table
+          $($carRow).find('span').html($status).removeClass("alert-success alert-danger").addClass($cssClass).hide().fadeIn("6000");
+
+          //update status Id
+          $($carRow).find('input').eq(2).val($carStatusObj.StatusId);
+
+          //show or hide car row based on filter options
+          if (($carStatusObj.StatusId == $filrerStatusId || $filrerStatusId == 0) && ($carCustomerId == $filterCustomerId || $filterCustomerId == 0)) {
+
+            $($carRow).show();
+          } else {
+            $($carRow).hide();
+          }
+
+        });
+
+      //error logging
+      connection.start().catch(function (err) {
+        return console.error(err.toString());
+      });
+
+    });
+  </script>
+}

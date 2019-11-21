@@ -1,0 +1,15 @@
+﻿version: '3'
+services:
+  ms-sql-server:
+    image: microsoft/mssql-server-windows-express
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "Password123"
+      MSSQL_PID: Express
+    ports:
+      - "1433:1433"
+  vehicle-microservice:
+    build: .
+    ports: 
+      - "8080:80"
+      
